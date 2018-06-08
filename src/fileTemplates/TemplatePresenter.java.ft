@@ -1,0 +1,18 @@
+package ${PACKAGE_NAME};
+
+/**
+ * Description
+ * Author ${USER}
+ * Date ${DATE}
+ */
+
+public class ${NAME}Presenter extends ${NAME}Contract.Presenter {
+    public ${NAME}Presenter() {
+        super(new ${NAME}Model());
+    }
+
+    @Override
+    public void start() {
+
+    }
+}

@@ -1,0 +1,32 @@
+package ${PACKAGE_NAME};
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.kascend.chushou.mvp.BaseMvpFragment;
+
+/**
+ * Description
+ * Author ${USER}
+ * Date ${DATE}
+ */
+
+public class ${NAME}Fragment extends BaseMvpFragment<${NAME}Presenter> implements ${NAME}Contract.View {
+    @Override
+    public ${NAME}Presenter initPresenter() {
+        return new ${NAME}Presenter();
+    }
+
+    @Override
+    protected View initView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return null;
+    }
+
+    @Override
+    protected void initData() {
+
+    }
+}

@@ -1,0 +1,29 @@
+package ${PACKAGE_NAME};
+
+import android.support.annotation.Nullable;
+
+import com.kascend.chushou.mvp.BaseMvpActivity;
+
+/**
+ * Description
+ * Author ${USER}
+ * Date ${DATE}
+ */
+
+public class ${NAME}Activity extends BaseMvpActivity<${NAME}Presenter> implements ${NAME}Contract.View {
+    @Nullable
+    @Override
+    public ${NAME}Presenter initPresenter() {
+        return new ${NAME}Presenter();
+    }
+
+    @Override
+    protected void initView() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+}

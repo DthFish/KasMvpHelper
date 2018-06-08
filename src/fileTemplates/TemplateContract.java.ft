@@ -1,0 +1,33 @@
+package ${PACKAGE_NAME};
+
+import com.kascend.chushou.mvp.BasePresenter;
+import com.kascend.chushou.mvp.IModel;
+import com.kascend.chushou.mvp.IView;
+
+/**
+ * Description
+ * Author ${USER}
+ * Date ${DATE}
+ */
+
+public interface ${NAME}Contract {
+    public interface View extends IView {
+
+        void showStatus(int type);
+
+        void showApiError(boolean showView, int code, String error);
+
+    }
+
+    public interface Model extends IModel {
+
+    }
+
+    public abstract static class Presenter extends BasePresenter<Model, View> {
+
+        public Presenter(Model model) {
+            super(model);
+        }
+
+    }
+}

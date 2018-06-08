@@ -1,0 +1,11 @@
+package ${PACKAGE_NAME};
+
+/**
+ * Description
+ * Author ${USER}
+ * Date ${DATE}
+ */
+
+public class ${NAME}Model implements ${NAME}Contract.Model {
+
+}
